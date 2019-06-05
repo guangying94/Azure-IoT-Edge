@@ -8,7 +8,7 @@ This sample is targeted for Linux based machine due to the needs of accessing ha
 
 The following image shows the high level view of connection from Microsoft Azure to IoT Edge devices:
 
-![Overview]()
+![Overview](https://github.com/guangying94/Azure-IoT-Edge/blob/master/Driver%20Drowsiness%20Detection/assets/iot%20edge.png)
 
 ### Camera
 A python script is written to grab image from camera, and send it to Face API to detect face landmarks and head pose. This will determine if the driver is sleepy. 2 conditions are considered, head is facing downwards, and eye aspect ratio. More info can be found here: [Real-Time Eye Blink Detection using Facial Landmarks](http://vision.fe.uni-lj.si/cvww2016/proceedings/papers/05.pdf).
@@ -96,7 +96,7 @@ Your environmental variables will be as below:
 
 ### Demo
 
-![Demo]()
+![Demo](https://github.com/guangying94/Azure-IoT-Edge/blob/master/Driver%20Drowsiness%20Detection/assets/demo.gif)
 
 The console will output 4 items:
 
