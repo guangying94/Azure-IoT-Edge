@@ -119,3 +119,15 @@ The telemetrey is streamed to IoT Hub as well.
     "timestamp": "08:59:46.732355",
     "eye": 0.267
 }
+```
+
+### Troubleshoot
+If there's an issue on getting IoT Edge runtime to access camera, you can grant access rights to IoT Edge to access device hardware. Under container create option, enable privileged access by having the following:
+
+```json
+{
+  "HostConfig": {
+    "Privileged": true
+  }
+}
+```
