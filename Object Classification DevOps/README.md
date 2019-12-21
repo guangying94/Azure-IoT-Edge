@@ -1,2 +1,2 @@
 # Azure DevOps with Azure IoT Edge
-This repository is to illustrate Azure DevOps integration with Azure IoT Edge. Please refer here for detailed explanation.
+This repository is to illustrate Azure DevOps integration with Azure IoT Edge. Please refer [here](https://medium.com/@guangyingtgy/azure-iot-edge-with-azure-devops-manage-intelligent-edge-devices-with-automated-pipeline-bd98d9388b) for detailed explanation.
