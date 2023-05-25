@@ -5,4 +5,4 @@ requests
 imutils
 numpy
 trollius
-tornado==4.5.3
+tornado==6.3.2
